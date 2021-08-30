@@ -14,37 +14,6 @@
     animation: kicked .85s linear infinite
   }
   
-  #foot {
-    animation: kick .85s linear forwards
-  }
-  
-  #foot {
-    opacity: .5;
-  }
-  
-  @keyframes kick {
-    0% {
-      transform: translateY(0%) rotate(0deg) translateX(0%);
-      transform-origin: center;
-    }
-    25% {
-      transform: translateY(20%) rotate(0deg) translateX(0%);
-      transform-origin: center;
-    }
-    50% {
-      transform: translateY(20%) rotate(0deg) translateX(0%);
-      transform-origin: center;
-    }
-    75% {
-      transform: translateY(20%) rotate(0deg) translateX(0%);
-      transform-origin: center;
-    }
-    100% {
-      transform: translateY(20%) rotate(0deg) translateX(0%);
-      transform-origin: center;
-    }
-  }
-  
   @keyframes kicked {
     0% {
       transform: translateY(0%) rotate(0deg) translateX(0%);
