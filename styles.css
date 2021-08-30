@@ -7,11 +7,11 @@
   }
   
   #futbol {
-    animation: roll 18.45s linear infinite
+    animation: roll 5.45s infinite
   }
   
   #futbol:hover {
-    animation: kicked .85s linear infinite
+    animation: kicked 1.25s linear infinite
   }
   
   @keyframes kicked {
@@ -20,15 +20,15 @@
       transform-origin: center;
     }
     25% {
-      transform: translateY(-30%) rotate(90deg);
+      transform: translateY(-40%) rotate(90deg);
       transform-origin: center;
     }
     50% {
-      transform: translateY(-60%) rotate(180deg);
+      transform: translateY(-80%) rotate(180deg);
       transform-origin: center;
     }
     75% {
-      transform: translateY(-30%) rotate(270deg);
+      transform: translateY(-40%) rotate(270deg);
       transform-origin: center;
     }
     100% {
@@ -40,14 +40,22 @@
   @keyframes roll {
     0% {
     transform-origin: center;
-    transform: rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+    }
+    25% {
+    transform-origin: center;
+    transform: translateX(10px) rotate(90deg);
     }
     50% {
     transform-origin: center;
-    transform: rotate(180deg);
+    transform: translateX(-10px) rotate(0deg);
+    }
+    75% {
+    transform-origin: center;
+    transform: translateX(20px) rotate(180deg);
     }
     100% {
     transform-origin: center;
-    transform: rotate(360deg);
+    transform: translateX(0) rotate(0deg);
     }
   }
