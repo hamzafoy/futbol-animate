@@ -27,9 +27,8 @@ While designing a website for a client running a nonprofit specializing in sport
 
 ## Installation
 
-1. Run `npm install futbol-animate`
-2. Import using `import { AnimatedCookingPot } from 'biryani-animate'`
-3. Enjoy a *starting state* of a rolling soccer ball with color & a `:hover` animation of said ball bouncing up and down.
+1. DO NOT RUN, THIS IS A WORK IN PROGRESS (WIP)
+2. Enjoy a *starting state* of a rolling soccer ball with color & a `:hover` animation of said ball bouncing up and down.
 
 
 <br/>
@@ -54,4 +53,5 @@ While designing a website for a client running a nonprofit specializing in sport
 
 ## Notes
 
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 * Intended for public use.

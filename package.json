@@ -1,6 +1,6 @@
 {
     "name": "futbol-animated-svg",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An animated SVG depicting a futbol/soccer ball, in color, with animations during hover and outside of hover state.",
     "main": "src/futbol-animate.jsx",
     "private": false,
